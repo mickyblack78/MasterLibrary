@@ -1,0 +1,19 @@
+{
+  "library_metadata": {
+    "version": "1.0",
+    "device_target": "Moto G35",
+    "last_updated": "2026-05-04"
+  },
+  "editor_blueprints": [
+    {
+      "id": "CORE_LAYOUT",
+      "title": "Fixed Sandwich Shell",
+      "description": "Fixed header and footer layout to prevent Android keyboard and notification bar interference.",
+      "html": "<div class='header'></div><div class='main'></div><div class='footer'></div>",
+      "css": "body { display: flex; flex-direction: column; height: 100vh; overflow: hidden; } .main { flex: 1; overflow-y: auto; }",
+      "tags": ["layout", "mobile", "css"]
+    }
+  ],
+  "pwa_essentials": [],
+  "media_vault": []
+}
